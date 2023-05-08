@@ -33,6 +33,8 @@ Failed to connect to bus: Host is down
 
 Java Coding
 
+    \n  => line break
+
     //intergers
         bye  -128 to 128
         short -30000 to 30000
@@ -55,3 +57,44 @@ Java Coding
         ! => not
         null
         ++ same as +=1
+
+        STRING
+        .length
+        .isEmpty()
+        .toUpperCase()
+        .toLowerCase()
+                                                                // new String
+        .equals(str) => compares two values if exact or not, does not compare objects 
+
+        .equalsIgnoreCase(str)
+
+        .replace(targetItem, newItem) // doe not changed og string, unless reasigned
+
+        .contains(str)
+
+        Integer.parseInt(strNum) //set using the proper asigners
+        Double.parseDouble(strNum)
+
+        if(){
+            lsfjs;
+        }else if(){
+            slkfslfs;
+        }else{
+            dslkawas;
+        }
+
+        switch(x){
+            case y:
+                some result;
+                break;
+            case z;
+                if(){
+                    dsflsjsdfs;
+                    }
+                break;
+            default:
+                if all cases are false this result;
+        }
+
+
+        //array
