@@ -28,3 +28,30 @@ sudo /opt/mssql/bin/mssql-conf setup
 
 System has not been booted with systemd as init system (PID 1). Can't operate.
 Failed to connect to bus: Host is down
+
+
+
+Java Coding
+
+    //intergers
+        bye  -128 to 128
+        short -30000 to 30000
+        int  millions
+        long  superLongnuberL // adds to the end of it
+
+        double 3.445 and so on
+        float  super long float number // end with F
+
+        boolean
+        char  for any thing that str of characer
+
+        if whole number divids a decmial it will be a decimal and vice versa
+
+    // operators
+        ==
+        <, >, >=, <=
+        !=
+        && , ||
+        ! => not
+        null
+        ++ same as +=1
