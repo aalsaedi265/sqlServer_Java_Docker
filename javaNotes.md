@@ -53,6 +53,7 @@ Java Coding
         ! => not
         null
         ++ same as +=1
+        %2 for evens & %1 for odds same as py
 
         STRING
         .length
@@ -121,3 +122,16 @@ Java Coding
                 System.arraycopy(originalArray, 0, newArray, 0, originalArray.length);
 
                 newArray[newLength - 1] = 4;  // Add a new element at the end
+
+
+
+            //Loop
+              //check con then run it
+                // while(true){
+                //     //do something;
+                //     //beaker;
+                // }
+
+                do{ // this runs at least, will run more if the condition is true
+                    the something
+                }while(condtions)
