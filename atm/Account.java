@@ -7,7 +7,7 @@ public class Account{
 
     private double balance;
 
-    private user holder;
+    private User holder;
     
     private ArrayList<Transactions> transactions;
 }
