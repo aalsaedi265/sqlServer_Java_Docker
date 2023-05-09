@@ -1,11 +1,9 @@
 
-
 java -version  
 
 sudo apt install default-jdk     jdk runs spefic java sofware
 
 javac -version                    see if its installed
-
 
 sudo service mssql-server start
 sudo service docker start
@@ -17,8 +15,6 @@ https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?vi
 1433:14>    -p 1433:1433 --name sql1 --hostname sql1 \
 >    -d \
 >    mcr.microsoft.com/mssql/server:2022-latest
-
-
 
 
 did not work
@@ -98,3 +94,30 @@ Java Coding
 
 
         //array
+
+            Arrays.toString(arr); //tunred to string '[sf,sds]', used with println()
+
+            Array.sort(arr); // sorted on next line
+                 .sort(arr,inclusive_STR, exlusive_END)
+
+            Arrays.binarySearch(arr,itemOfInterst) return index of item in arr
+                  .binarySearch(arr,inclusive_STR, exlusive_END, itemOfInterst )
+
+            Array.fill(arr, item)
+                 .fill(arr, int, fin, item)
+
+            // arrays are always refranced, to make a copy that is inedpenent of og do this
+            int numArr[] = Arrays.copyOf(ogArr, ogArr.length) 
+                                  .copyOfRange(ogArr, intIdx, finIdx)
+            
+            //copy end index can change end arry length 
+                int[] originalArray = {1, 2, 3};
+
+                int newLength = originalArray.length + 1; // Increase array length
+                
+                int[] newArray = new int[newLength];
+
+                // Copy elements to the new array
+                System.arraycopy(originalArray, 0, newArray, 0, originalArray.length);
+
+                newArray[newLength - 1] = 4;  // Add a new element at the end

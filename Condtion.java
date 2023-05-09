@@ -33,7 +33,7 @@ class Condtion{
         System.out.println(user);
 
          age = scanner.nextInt();
-         scanner.nextLine() // cleans up the buffer from nextInt()
+         scanner.nextLine(); // cleans up the buffer from nextInt()
         System.out.printf("%d is the age",age);
 
         scanner.close();
