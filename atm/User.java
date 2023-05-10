@@ -34,9 +34,20 @@ public class User{
         return this.uuid;
     }
 
-    // public static void main(String[] args) {
-    //     System.out.println("Bite the Dust");
-    // }
+    public boolean validatePin(String aPin){
+
+        try{
+            MessageDigest md = MessageDigest.getInstance("MD5");
+
+            return MessageDigest.isEqual(md.digest(aPin.getBytes(), this.pinHash ) )
+
+        }catch( NoSuchAlgorithmException e){
+            System.err.println("error, caught No NoSuchAlgorithmException");
+            e.printStackTrace();
+            System.exit(1);
+        }
+        return false;
+    }
 }
 
 

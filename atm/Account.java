@@ -18,8 +18,7 @@ public class Account{
 
         this.transactions = new ArrayList<Transactions>();
 
-        holder.addAccount(this);
-        theBank.addAccount(this);
+       
 
     }
 }

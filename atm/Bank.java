@@ -60,8 +60,28 @@ public class Bank{
 
         return uuid;
     }
+
     public void addAccount(Account anAcct){
-        this.accounts.add(anAcct)
+        this.accounts.add(anAcct);
+    }
+    
+    public User addUser(String firstname, String lastname, String pin){
+        User newUser = new User(firstname, lastname, pin, this);
+        this.users.add(newUser);
+
+        Account newAccount = new Account("Savings", newUser, this);
+        newUser.addAccount(newAccount);
+        this.accounts.add(newAccount);
     }
 
+    public User userLogin(String userID, String pin){
+
+        for (User u: this.users){
+
+            if(u.getUUID().compareTo(userID) ==0 && u.validatePin(pin) ){
+                return u;
+            }
+        }
+        return null;
+    }
 }
