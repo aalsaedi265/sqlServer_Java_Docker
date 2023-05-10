@@ -9,5 +9,5 @@ public class Transactions{
 
     private String memo;
 
-    private Accouint inAccount;
+    private Account inAccount;
 }
