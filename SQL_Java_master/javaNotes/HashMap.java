@@ -5,24 +5,24 @@ class HashMap{
 
         HashMap<String,Integer> examScores = new HashMap<String, Integer>();
 
-        examScores.getOrDegault('outbak',54);
+        examScores.getOrDegault("outbak",54);
 
         examScores.clear();
 
-        examScores.put('SexEd',79);
-        examScores.put('Soci/Pysco', 86);
-        examScores.put('math', 100);
+        examScores.put("SexEd",79);
+        examScores.put("Soci/Pysco", 86);
+        examScores.put("math", 100);
 
-        examScores.remove('outbak'); 
-        examScores.putIfAbsent('someClass',43);
+        examScores.remove("outbak"); 
+        examScores.putIfAbsent("someClass",43);
         
         
-        examScores.replace('someClass',69);
-        examScores.containKey("comeClass")
-        examScores.containValue(100)
+        examScores.replace("someClass",69);
+        examScores.containKey("comeClass");
+        examScores.containValue(100);
 
         examScores.forEach((sub,sco)->{
-            examScores.replace(sub,sco+7)
-        })
+            examScores.replace(sub,sco+7);
+        });
     }
 }

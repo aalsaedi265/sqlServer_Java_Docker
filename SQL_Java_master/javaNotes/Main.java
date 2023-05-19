@@ -19,8 +19,8 @@ class Main{
         int number3 = (int)number2;
         System.out.println(number3);
 
-        number -=1
-        number1+=1
+        number -=1;
+        number1+=1;
         //number %=2 will be zero if even one if not or %=1 the reverse it true 
     }
 }
