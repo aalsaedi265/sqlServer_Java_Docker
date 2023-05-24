@@ -1,3 +1,4 @@
+package javaBasics_sql;
 //File and class got to match to run
 // java file runs file
 //javac file comples it make another file ex:  Main.class

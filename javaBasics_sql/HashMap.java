@@ -1,3 +1,4 @@
+package javaBasics_sql;
 import java.util.HashMap;
 
 class HashMap{

@@ -1,3 +1,4 @@
+package javaBasics_sql;
 
 
 //ignore the error this is meant to be one place to find a quick setp up only

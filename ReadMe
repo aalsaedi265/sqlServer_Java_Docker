@@ -1,6 +1,8 @@
 
 export PATH=/usr/bin:/bin     if path get thrown out
 
+export DONT_PROMPT_WSL_INSTALL=true  to use code
+
 
 Notes
 

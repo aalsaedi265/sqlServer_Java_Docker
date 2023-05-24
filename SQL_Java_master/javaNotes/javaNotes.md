@@ -72,6 +72,13 @@ Java Coding
         Integer.parseInt(strNum) //set using the proper asigners
         Double.parseDouble(strNum)
 
+
+        // ternary
+
+        2>=1 ?: 'yeas' : 'no'
+
+        //if else 
+        
         if(){
             lsfjs;
         }else if(){
